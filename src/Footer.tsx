@@ -1,9 +1,28 @@
-import React from 'react'
+import { Form } from "react-router-dom"
+import { socials } from "./lib"
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-800 py-4 text-center text-white w-full">
-        <p>Copyright 2023. Drwoy foundation</p>
+    <footer className="py-4 text-center text-white flex flex-col items-center gap-y-5 z-20">
+      <div className="flex items-center justify-center space-x-5">
+        {socials?.map((social, index) => (
+          <a href={social.link} key={index} className="cursor-pointer hover:scale-125">
+            <social.icon className="text-xl" />
+          </a>
+        ))}
+      </div>
+
+      <Form className="md:ml-auto flex items-center space-x-2 md:mr-5 mt-3 md:mt-0" method="POST">
+        <input 
+          type="email" 
+          placeholder="EMAIL ADDRESS" 
+          className="bg-transparent border-b-2 py-2 focus:border-b-[3px] outline-none"
+          required
+        />
+        <button className="uppercase hover:scale-110">subscribe</button>
+      </Form>
+
+      <p className="mt-3">&copy; D RWOY</p>
     </footer>
   )
 }

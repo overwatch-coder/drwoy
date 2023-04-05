@@ -24,7 +24,7 @@ const Contact = ({contactDisplay, setContactDisplay}: contactProps) => {
             absolute inset-0 flex flex-col items-center bg-black/50 scrollbar-hide overflow-y-scroll transition-all duration-1000 transform z-50 h-screen`
         }
     >
-        <div className="w-[95%] md:max-w-2xl p-10 mt-20 md:mt-32 bg-white drop-shadow-2xl shadow-xl rounded-md">
+        <div className="w-[95%] md:max-w-2xl p-10 mt-10 md:mt-32 bg-white drop-shadow-2xl shadow-xl rounded-md">
 
             <h2 className="flex items-center justify-center mb-5">
                 <span className="text-2xl uppercase font-[georgia] ml-auto text-black font-semibold">Contact</span>

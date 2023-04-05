@@ -3,7 +3,7 @@ import { socials } from "./lib"
 
 const Footer = () => {
   return (
-    <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20 -top-10 relative md:-top-0">
+    <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20 -top-20 relative md:-top-0">
       <div className="flex items-center justify-center space-x-5">
         {socials?.map((social, index) => (
           <a href={social.link} key={index} className="cursor-pointer hover:scale-125">

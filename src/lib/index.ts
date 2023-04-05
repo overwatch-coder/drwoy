@@ -33,7 +33,7 @@ export const musics: MusicType[] = [
         thumbnail: pour_toi
     },
     {
-        title: "Heart Affairs",
+        title: "Heart Affairs EP",
         link: "https://tr.ee/rwFfo06gfQ",
         thumbnail: heart_affairs
     },

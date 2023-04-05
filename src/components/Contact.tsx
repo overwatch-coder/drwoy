@@ -21,7 +21,7 @@ const Contact = ({contactDisplay, setContactDisplay}: contactProps) => {
         id="contact_overlay" 
         className={`
             ${contactDisplay ? "-translate-y-[0%] scale-100" : "-translate-y-[99.99%] scale-50"} 
-            absolute inset-0 flex flex-col items-center bg-black/50 scrollbar-hide overflow-y-scroll transition-all duration-1000 transform z-50`
+            absolute inset-0 flex flex-col items-center bg-black/50 scrollbar-hide overflow-y-scroll transition-all duration-1000 transform z-50 min-h-full`
         }
     >
         <div className="w-[95%] md:max-w-2xl p-10 mt-20 md:mt-32 bg-white drop-shadow-2xl shadow-xl rounded-md">

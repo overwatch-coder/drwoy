@@ -3,7 +3,7 @@ import drwoy from "./assets/drwoy_darker.mp4";
 
 const RootLayout = () => {
   return (
-    <div className="flex flex-col">
+    <div className="">
 
       {/* Overlay Goes Here */}
       <div className="absolute inset-0 bg-black/40 min-h-full"></div>

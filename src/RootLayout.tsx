@@ -3,10 +3,10 @@ import drwoy from "./assets/drwoy_darker.mp4";
 
 const RootLayout = () => {
   return (
-    <div className="">
+    <div className="h-screen">
 
       {/* Overlay Goes Here */}
-      <div className="absolute inset-0 bg-black/40 min-h-full"></div>
+      <div className="absolute inset-0 bg-black/40 h-screen"></div>
 
       {/* Video Background Goes Here */}
         <video 

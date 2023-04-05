@@ -18,7 +18,7 @@ const Music = ({musics, musicDisplay, setMusicDisplay}: musicProps) => {
 
   return (
     <div onClick={hideMusic} id="music_overlay" className={`${musicDisplay ? "-translate-y-[0%] scale-100" : "-translate-y-[99.99%] scale-0"} absolute inset-0 flex flex-col items-center z-50 bg-black/50 scrollbar-hide overflow-y-scroll transition-all duration-1000 transform`}>
-        <div className="w-full md:max-w-xl px-5 py-10 bg-black/70 md:bg-black/70">
+        <div className="w-full md:max-w-xl px-5 py-10 bg-black/90 md:bg-black/90">
 
             <h2 className="text-white flex items-center justify-center mb-5">
                 <span className="text-xl uppercase font-[georgia] ml-auto">Music</span>

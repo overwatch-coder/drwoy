@@ -3,7 +3,7 @@ import { socials } from "./lib"
 
 const Footer = () => {
   return (
-    <footer className="py-4 text-center text-white flex flex-col items-center gap-y-5 z-20">
+    <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20">
       <div className="flex items-center justify-center space-x-5">
         {socials?.map((social, index) => (
           <a href={social.link} key={index} className="cursor-pointer hover:scale-125">
@@ -22,7 +22,7 @@ const Footer = () => {
         <button className="uppercase hover:scale-110">subscribe</button>
       </Form>
 
-      <p className="mt-3">&copy; D RWOY</p>
+      <p className="mt-3 text-[10px]">&copy; D RWOY</p>
     </footer>
   )
 }

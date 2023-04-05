@@ -6,7 +6,7 @@ const RootLayout = () => {
     <div className="flex flex-col">
 
       {/* Overlay Goes Here */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/40 min-h-full"></div>
 
       {/* Video Background Goes Here */}
         <video 

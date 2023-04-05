@@ -7,7 +7,7 @@ const Home = () => {
       </h1>
       <h3 className="font-[georgia] text-5xl">Soft Life</h3>
       <a 
-        href="https://drwoy.myshopify.com/" 
+        href="https://linktr.ee/drwoy" 
         target="_blank"
         className="rounded-full px-5 py-2 border-2 uppercase hover:bg-white hover:text-black hover:font-semibold transition-all duration-500 animate-bounce"
       >

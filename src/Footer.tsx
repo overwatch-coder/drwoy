@@ -1,7 +1,6 @@
-import { Form } from "react-router-dom"
 import { socials } from "./lib"
 
-const Footer = () => {
+const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<React.SetStateAction<boolean>>}) => {
   return (
     <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20 -top-20 relative md:-top-5">
 
@@ -15,16 +14,24 @@ const Footer = () => {
           ))}
         </div>
 
+        <button 
+           className='uppercase cursor-pointer md:text-xl w-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 md:p-2' 
+           onClick={() => setSubscribeDisplay(true)}
+         >
+           D RWOY Letters
+         </button>
         
-        <a 
+        {/* <a 
           href="http://eepurl.com/ioGGjs" 
           target="_blank"
           className="text-lg border-2 p-1 hover:bg-gray-800 transition-all"
         >
           D RWOY Letters
-        </a>
+        </a> */}
+
 
       </div>
+
 
       {/* <Form className="md:ml-auto flex items-center space-x-2 md:mr-5 mt-3 md:mt-0" method="POST">
         <input 

@@ -3,6 +3,9 @@ import RootLayout from "./RootLayout"
 import Home from "./Home"
 import MainLayout from "./MainLayout"
 // import { ContactAction } from "./components/Contact"
+import { ToastContainer } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+  
 
 const App = () => {
   
@@ -16,7 +19,10 @@ const App = () => {
   ))
 
   return (
-    <RouterProvider router={router} />
+    <>
+      <RouterProvider router={router} />
+      <ToastContainer />
+    </>
   )
 }
 

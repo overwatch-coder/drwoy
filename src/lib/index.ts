@@ -86,7 +86,7 @@ export const socials: SocialType[] = [
         icon: BsInstagram
     },
     {
-        link: "https://www.facebook.com/officialdrwoy?paipv=0&eav=AfZ-4W6xp-ZfpbDIpPfhp5J3PJUAYqBapqqX-vb1ayCQkfaHkMs-ZUuvxF31qlH7qcA&_rdr",
+        link: "https://www.facebook.com/officialdrwoy",
         icon: BsFacebook
     },
     {
@@ -98,7 +98,7 @@ export const socials: SocialType[] = [
         icon: BsTiktok
     },
     {
-        link: "https://www.youtube.com/channel/UCZXt5cG0fR18rQTP6N4mW8Q",
+        link: "https://www.youtube.com/@drwoy",
         icon: BsYoutube
     },
     {

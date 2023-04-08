@@ -27,7 +27,7 @@ const RootLayout = () => {
         <img 
           src={drwoy} 
           alt="D RWOY" 
-          className="fixed top-0 left-0 -z-10 min-w-full object-cover h-full aspect-square"
+          className="fixed top-0 left-0 -z-10 min-w-full object-cover min-h-full aspect-square"
           loading="lazy"
         />
 

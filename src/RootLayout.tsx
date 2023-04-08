@@ -4,10 +4,10 @@ import drwoy from "./assets/hero1.jpg";
 
 const RootLayout = () => {
   return (
-    <div className="h-screen">
+    <div>
 
       {/* Overlay Goes Here */}
-      <div className="absolute inset-0 bg-black/40 min-h-screen"></div>
+      <div className="absolute inset-0 bg-black/40 h-screen"></div>
 
       {/* Video Background Goes Here */}
         {/* <video 
@@ -27,7 +27,8 @@ const RootLayout = () => {
         <img 
           src={drwoy} 
           alt="D RWOY" 
-          className="fixed top-0 left-0 -z-10 min-w-full object-cover min-h-full aspect-square"
+          className="fixed top-0 left-0 -z-10 min-w-full object-cover h-full aspect-square"
+          loading="lazy"
         />
 
         {/* Main Content Goes Here */}

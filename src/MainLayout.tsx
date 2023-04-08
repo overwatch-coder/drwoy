@@ -12,7 +12,7 @@ const MainLayout = () => {
     const [contactDisplay, setContactDisplay] = useState<boolean>(false);
 
   return (
-    <div>
+    <div className="overflow-y-hidden">
         <div className="border-2 border-t-0 flex flex-col min-h-screen mx-4">
         <Header 
             setMusicDisplay={setMusicDisplay} 

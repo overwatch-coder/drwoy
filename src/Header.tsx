@@ -18,12 +18,17 @@ const Header = ({setMusicDisplay, setContactDisplay, musicDisplay, contactDispla
 
             <a href="https://drwoy.myshopify.com/" target='_blank' className='w-full uppercase rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 text-center cursor-pointer md:text-xl'>Shop</a>
 
-            <button 
+            {/* <button 
               className='uppercase cursor-pointer md:text-xl w-full rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2' 
               onClick={() => setContactDisplay(true)}
             >
               Contact
-            </button>
+            </button> */}
+            <a 
+              href="https://us12.list-manage.com/contact-form?u=bc78c11dfad31039844b529fb&form_id=cbabaffdf9822e3bd600164525351274" 
+              className='uppercase cursor-pointer md:text-xl w-full rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 text-center'
+              target="_blank"
+            >Write to me</a>
         </nav>
     </header>
   )

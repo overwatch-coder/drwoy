@@ -7,7 +7,7 @@ const RootLayout = () => {
     <div className="h-screen">
 
       {/* Overlay Goes Here */}
-      <div className="absolute inset-0 bg-black/40 h-screen"></div>
+      <div className="absolute inset-0 bg-black/40 min-h-screen"></div>
 
       {/* Video Background Goes Here */}
         {/* <video 
@@ -31,7 +31,7 @@ const RootLayout = () => {
         />
 
         {/* Main Content Goes Here */}
-        <main className="z-50 w-screen">
+        <main className="z-50 w-screen overflow-y-hidden">
             <Outlet />  
         </main>
     </div>

@@ -3,7 +3,7 @@ import { socials } from "./lib"
 
 const Footer = () => {
   return (
-    <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20 -top-10 relative md:-top-5">
+    <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20 -top-20 relative md:-top-5">
 
       <div className="flex flex-col items-center gap-y-10 md:flex-row md:justify-between md:space-x-10">
 

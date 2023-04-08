@@ -10,13 +10,13 @@ const Header = ({setMusicDisplay, setContactDisplay, musicDisplay, contactDispla
     <header className={`text-white sticky top-0 left-0 ${(musicDisplay || contactDisplay) ? "-z-10" : "z-50"}`}>
         <nav className='flex items-center justify-around'>
             <button 
-              className='w-full uppercase cursor-pointer md:text-xl rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2' 
+              className='w-full uppercase cursor-pointer text-sm md:text-xl rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2' 
               onClick={() => setMusicDisplay(true)}
             >
               Music
             </button>
 
-            <a href="https://drwoy.myshopify.com/" target='_blank' className='w-full uppercase rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 text-center cursor-pointer md:text-xl'>Shop</a>
+            <a href="https://drwoy.myshopify.com/" target='_blank' className='w-full uppercase rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 text-center cursor-pointer text-sm md:text-xl'>Shop</a>
 
             {/* <button 
               className='uppercase cursor-pointer md:text-xl w-full rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2' 
@@ -26,7 +26,7 @@ const Header = ({setMusicDisplay, setContactDisplay, musicDisplay, contactDispla
             </button> */}
             <a 
               href="https://us12.list-manage.com/contact-form?u=bc78c11dfad31039844b529fb&form_id=cbabaffdf9822e3bd600164525351274" 
-              className='uppercase cursor-pointer md:text-xl w-full rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 text-center'
+              className='uppercase cursor-pointer text-sm md:text-xl w-full rounded-b-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 text-center'
               target="_blank"
             >Write to me</a>
         </nav>

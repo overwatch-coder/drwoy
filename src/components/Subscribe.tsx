@@ -88,7 +88,7 @@ const Contact = ({subscribeDisplay, setSubscribeDisplay}: contactProps) => {
             {!success ? <>
                 <h2 className="flex items-center justify-center mb-5">
                 <span className="text-2xl uppercase font-[georgia] ml-auto text-black font-semibold tracking-wide">
-                    DRWOY Letters
+                    D RWOY Letters
                 </span>
                 <MdClose 
                     className="ml-auto black text-3xl cursor-pointer" 
@@ -100,7 +100,7 @@ const Contact = ({subscribeDisplay, setSubscribeDisplay}: contactProps) => {
                 <div className="flex flex-col items-start space-y-3">
                     <label 
                         htmlFor="mce-FNAME"
-                        className="font-medium flex items-center space-x-1"
+                        className="font-medium flex items-center space-x-1 lowercase"
                     >
                         <span>First Name</span>
                         <span className="text-red-600 text-lg">*</span>
@@ -121,7 +121,7 @@ const Contact = ({subscribeDisplay, setSubscribeDisplay}: contactProps) => {
                 <div className="flex flex-col items-start space-y-3">
                     <label 
                         htmlFor="mce-EMAIL" 
-                        className="font-medium flex items-center space-x-1"
+                        className="font-medium flex items-center space-x-1 lowercase"
                     >
                         <span>Email</span>
                         <span className="text-red-600 text-lg">*</span>
@@ -141,7 +141,7 @@ const Contact = ({subscribeDisplay, setSubscribeDisplay}: contactProps) => {
                 <div className="flex flex-col items-start space-y-3">
                     <label 
                         htmlFor="mce-BIRTHDAY" 
-                        className="font-medium flex items-center space-x-1"
+                        className="font-medium flex items-center space-x-1 lowercase"
                     >
                         <span>Let me wish you a happy birthday</span>
                         <span className="text-red-600 text-lg">*</span>

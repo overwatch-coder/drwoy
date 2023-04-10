@@ -15,7 +15,7 @@ const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<Rea
         </div>
 
         <button 
-           className='uppercase cursor-pointer md:text-xl w-full border-2 hover:bg-white hover:text-black hover:font-medium py-2 md:p-2' 
+           className='uppercase cursor-pointer md:text-xl hover:text-white hover:underline hover:font-medium py-2 md:p-2' 
            onClick={() => setSubscribeDisplay(true)}
          >
            D RWOY Letters
@@ -43,7 +43,7 @@ const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<Rea
         <button className="uppercase hover:scale-110">subscribe</button>
       </Form> */}
 
-      <p className="mt-3 text-xs">&copy; D RWOY</p>
+      <p className="mt-3 text-[10px] md:text-xs">&copy; D RWOY</p>
     </footer>
   )
 }

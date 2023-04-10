@@ -15,7 +15,7 @@ const MainLayout = () => {
 
   return (
     <div className="overflow-y-hidden">
-        <div className="border-2 border-t-0 flex flex-col min-h-screen mx-4">
+        <div className="flex flex-col min-h-screen mx-4">
         <Header 
             setMusicDisplay={setMusicDisplay} 
             setShopDisplay={setShopDisplay} 

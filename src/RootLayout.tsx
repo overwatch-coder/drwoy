@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 // import drwoy from "./assets/drwoy_darker.mp4";
-import drwoy from "./assets/hero1.jpg";
+import drwoy from "./assets/hero2.jpg";
 
 const RootLayout = () => {
   return (

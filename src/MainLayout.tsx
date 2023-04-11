@@ -4,8 +4,8 @@ import Footer from "./Footer"
 import Header from "./Header"
 import Music from "./components/Music";
 import { musics } from "./lib";
-import Subscribe from "./components/Subscribe";
 import Shop from "./components/Shop";
+import SubscribeMail from "./components/SubscribeMail";
 
 
 const MainLayout = () => {
@@ -29,7 +29,7 @@ const MainLayout = () => {
             setMusicDisplay={setMusicDisplay} 
         />
 
-        <Subscribe 
+        <SubscribeMail 
             subscribeDisplay={subscribeDisplay} 
             setSubscribeDisplay={setSubscribeDisplay} 
         />

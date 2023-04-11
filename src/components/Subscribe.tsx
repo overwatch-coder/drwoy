@@ -84,8 +84,7 @@ const Contact = ({subscribeDisplay, setSubscribeDisplay}: contactProps) => {
         }
     >
         <div className="w-[95%] md:max-w-2xl p-10 mt-10 md:mt-[56px] bg-white drop-shadow-2xl shadow-xl rounded-md">
-
-            {!success ? <>
+            {!success ? <div>
                 <h2 className="flex items-center justify-center mb-5">
                 <span className="text-2xl uppercase font-[georgia] ml-auto text-black font-semibold tracking-wide">
                     D RWOY Letters
@@ -167,7 +166,7 @@ const Contact = ({subscribeDisplay, setSubscribeDisplay}: contactProps) => {
                     {!loading ? "subscribe" : "subscribing..."}
                 </button>
             </form>
-            </>
+            </div>
             : 
             <Success setSubscribeDisplay={setSubscribeDisplay} message={message} />
             }

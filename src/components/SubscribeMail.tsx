@@ -35,17 +35,17 @@ const SubscribeMail = ({subscribeDisplay, setSubscribeDisplay}: contactProps) =>
             absolute inset-0 flex flex-col items-center bg-black/50 scrollbar-hide overflow-y-scroll transition-all duration-1000 transform z-50 h-screen`
         }
     >
-        <div className="w-[95%] md:max-w-2xl p-10 mt-10 md:mt-[56px] bg-white drop-shadow-2xl shadow-xl rounded-md">
+        <div className="w-[95%] md:max-w-2xl p-10 md:mt-[56px] md:bg-white drop-shadow-2xl shadow-xl rounded-md">
             <div className="relative">
                 <iframe 
                     src={import.meta.env.VITE_SENDBLUE_URL}  
                     allowFullScreen 
-                    className="block mx-auto max-w-full w-[600px] h-[650px] md:h-[600px]"
+                    className="block mx-auto max-w-full w-[600px] h-[600px] rounded-md"
                 >
                 </iframe>
 
                 <MdClose 
-                    className="ml-auto black text-3xl cursor-pointer absolute top-0 right-0" 
+                    className="ml-auto black text-3xl cursor-pointer absolute top-2 right-1 md:top-0 md:right-0" 
                     onClick={() => setSubscribeDisplay(false)} 
                 />
 

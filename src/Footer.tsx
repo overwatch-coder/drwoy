@@ -8,7 +8,12 @@ const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<Rea
 
         <div className="flex items-center justify-center space-x-5">
           {socials?.map((social, index) => (
-            <a href={social.link} key={index} className="cursor-pointer hover:scale-125">
+            <a 
+              href={social.link} 
+              key={index} 
+              target="_blank"
+              className="cursor-pointer hover:scale-125"
+            >
               <social.icon className="text-xl" />
             </a>
           ))}

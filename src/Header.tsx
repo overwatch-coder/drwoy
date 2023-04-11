@@ -16,19 +16,26 @@ const Header = ({setMusicDisplay, setShopDisplay, musicDisplay, subscribeDisplay
               Music
             </button>
 
-            {/* <a href="https://drwoy.myshopify.com/" target='_blank' className='uppercase px-2 hover:text-white hover:font-medium py-2 text-center cursor-pointer text-sm md:text-xl'>Shop</a> */}
 
             <button 
               className='uppercase px-2 hover:text-white hover:font-medium py-2 text-center cursor-pointer text-sm md:text-xl' 
               onClick={() => setShopDisplay(true)}
-            >
+              >
               Shop
             </button>
+            
             <a 
-              href="https://us12.list-manage.com/contact-form?u=bc78c11dfad31039844b529fb&form_id=cbabaffdf9822e3bd600164525351274" 
+              href="mailto:info@drwoy.com?subject=Contact D RWOY" 
               className='uppercase cursor-pointer text-sm md:text-xl px-2 hover:text-white hover:font-medium py-2 text-center'
               target="_blank"
             >Write to me</a>
+            
+              {/* <a href="https://drwoy.myshopify.com/" target='_blank' className='uppercase px-2 hover:text-white hover:font-medium py-2 text-center cursor-pointer text-sm md:text-xl'>Shop</a> */}
+            {/* <a 
+              href="https://us12.list-manage.com/contact-form?u=bc78c11dfad31039844b529fb&form_id=cbabaffdf9822e3bd600164525351274" 
+              className='uppercase cursor-pointer text-sm md:text-xl px-2 hover:text-white hover:font-medium py-2 text-center'
+              target="_blank"
+            >Write to me</a> */}
         </nav>
     </header>
   )

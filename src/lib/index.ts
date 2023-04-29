@@ -4,6 +4,7 @@ import romeo_juliet from "../assets/romeo_juliet.jpg"
 import adobi from "../assets/adobi.jpg"
 import special_someone from "../assets/special_someone.jpg"
 import heart_affairs from "../assets/heart_affairs.jpg";
+import soft_life from "../assets/soft_life.jpeg";
 // import inlove from "../assets/inlove.jpg"
 // import maame_yaa from "../assets/maame_yaa.jpg"
 // import omoge from "../assets/omoge.jpg"
@@ -27,6 +28,11 @@ import {
 
 //custom exports
 export const musics: MusicType[] = [
+    {
+        title: "Soft Life",
+        link: "https://tr.ee/DGsQ3enoKG",
+        thumbnail: soft_life
+    },
     {
         title: "Pour Toi",
         link: "https://tr.ee/mCOP9Eku-v",

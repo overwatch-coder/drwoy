@@ -5,6 +5,7 @@ import adobi from "../assets/adobi.jpg"
 import special_someone from "../assets/special_someone.jpg"
 import heart_affairs from "../assets/heart_affairs.jpg";
 import soft_life from "../assets/soft_life.jpeg";
+import love_spell from "../assets/love_spell.jpg"
 // import inlove from "../assets/inlove.jpg"
 // import maame_yaa from "../assets/maame_yaa.jpg"
 // import omoge from "../assets/omoge.jpg"
@@ -28,6 +29,11 @@ import {
 
 //custom exports
 export const musics: MusicType[] = [
+    {
+        title: "Love Spell",
+        link: "https://tr.ee/aBV-j41Gxj",
+        thumbnail: love_spell
+    },
     {
         title: "Soft Life",
         link: "https://tr.ee/DGsQ3enoKG",

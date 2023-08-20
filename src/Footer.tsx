@@ -1,16 +1,18 @@
-import { socials } from "./lib"
+import { socials } from "./lib";
 
-const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<React.SetStateAction<boolean>>}) => {
+const Footer = ({
+  setSubscribeDisplay,
+}: {
+  setSubscribeDisplay: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
   return (
-    <footer className="text-center text-white flex flex-col items-center gap-y-5 z-20 -top-20 relative md:-top-5">
-
+    <footer className="relative z-20 flex flex-col items-center text-center text-white gap-y-5 -top-20 md:-top-5">
       <div className="flex flex-col items-center gap-y-10 md:flex-row md:justify-between md:space-x-10">
-
         <div className="flex items-center justify-center space-x-5">
           {socials?.map((social, index) => (
-            <a 
-              href={social.link} 
-              key={index} 
+            <a
+              href={social.link}
+              key={index}
               target="_blank"
               className="cursor-pointer hover:scale-125"
             >
@@ -19,26 +21,23 @@ const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<Rea
           ))}
         </div>
 
-        <button 
-           className='uppercase cursor-pointer md:text-xl hover:text-white hover:underline hover:font-medium py-2 md:p-2' 
-           onClick={() => setSubscribeDisplay(true)}
-         >
-           D RWOY Letters
-         </button>
-        
+        <button
+          className="py-2 uppercase cursor-pointer md:text-xl hover:text-white hover:underline hover:font-medium md:p-2"
+          onClick={() => setSubscribeDisplay(true)}
+        >
+          D RWOY Letters
+        </button>
+
         {/* <a 
           href="http://eepurl.com/ioGGjs" 
           target="_blank"
-          className="text-lg border-2 p-1 hover:bg-gray-800 transition-all"
+          className="p-1 text-lg transition-all border-2 hover:bg-gray-800"
         >
           D RWOY Letters
         </a> */}
-
-
       </div>
 
-
-      {/* <Form className="md:ml-auto flex items-center space-x-2 md:mr-5 mt-3 md:mt-0" method="POST">
+      {/* <Form className="flex items-center mt-3 space-x-2 md:ml-auto md:mr-5 md:mt-0" method="POST">
         <input 
           type="email" 
           placeholder="EMAIL ADDRESS" 
@@ -50,7 +49,7 @@ const Footer = ({setSubscribeDisplay} : {setSubscribeDisplay: React.Dispatch<Rea
 
       <p className="mt-3 text-[10px] md:text-xs">&copy; D RWOY</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
